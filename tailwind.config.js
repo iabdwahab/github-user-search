@@ -8,8 +8,9 @@ export default {
     extend: {
       colors: {
         'dark-blue': '#141c2f',
-        'medium-blue': colors.slate[700],
+        'medium-blue': colors.slate[800],
         'light-blue': colors.blue[600],
+        'dark-grey': colors.gray[400],
       },
     },
   },

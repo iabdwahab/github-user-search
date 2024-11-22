@@ -1,4 +1,5 @@
 import Header from './components/header/Header';
+import Main from './components/main/Main';
 import Search from './components/search/Search';
 
 function App() {
@@ -8,6 +9,9 @@ function App() {
         <Header />
         <div className="mt-6">
           <Search />
+        </div>
+        <div className="mt-6">
+          <Main />
         </div>
       </div>
     </div>
