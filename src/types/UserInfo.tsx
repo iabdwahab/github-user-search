@@ -10,5 +10,6 @@ export interface UserInfoType {
   public_repos: number;
   followers: number;
   following: number;
+  company: string;
   created_at: string;
 }
