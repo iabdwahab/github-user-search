@@ -12,4 +12,5 @@ export interface UserInfoType {
   following: number;
   company: string;
   created_at: string;
+  message?: string;
 }

@@ -16,12 +16,13 @@ function App() {
           <div className="mt-6">
             <Search />
           </div>
-          {Object.entries(userInfo).length ? (
+          {userInfo.message && <p className="text-white text-center mt-20 text-2xl font-bold">{userInfo.message}</p>}
+          {Object.entries(userInfo).length && !userInfo.message ? (
             <div className="mt-6">
               <Main />
             </div>
           ) : (
-            <></>
+            ''
           )}
         </UserContext.Provider>
       </div>
