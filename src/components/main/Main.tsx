@@ -12,10 +12,10 @@ const Main = () => {
         <img src={userInfo.avatar_url} alt="User" className="w-full rounded" />
       </div>
       <div>
-        <div className="md:flex md:justify-between">
+        <div className="md:flex md:justify-between md:flex-wrap md:gap-1">
           <h2 className="text-white text-3xl font-medium">{userInfo.name}</h2>
           <p className="text-dark-grey">
-            {userCreateAt.getFullYear()}-{userCreateAt.getMonth() + 1}-{userCreateAt.getDate()}
+            Joined in: {userCreateAt.getFullYear()}-{userCreateAt.getMonth() + 1}-{userCreateAt.getDate()}
           </p>
         </div>
         <p className="text-light-blue">@{userInfo.login}</p>
